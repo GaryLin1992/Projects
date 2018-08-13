@@ -1,0 +1,104 @@
+header {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tableOfContents {
+  font-size: 1.2em;
+  width: 100%;
+  z-index: 20;
+}
+
+body {
+  background-color: rgba( 20, 20, 255, 0.2);
+  text-align:center;
+}
+
+ul {
+  text-align: center;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+li {
+  display: inline-block;;
+  margin: 20px auto;
+  padding: inherit;
+}
+
+li a{
+  color: black;
+}
+
+.portrait {
+  text-align: center;
+  position: relative;
+  height: 10%;
+}
+
+img {
+  width: 15%;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  margin: 0 30%;
+  text-align: center;
+  border: 1px solid black;
+  line-height: 50%;
+}
+
+#AboutMe {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 1% 10%;
+}
+
+div iframe {
+  background-color: white;
+  margin: 0 20%;
+}
+
+#Resume {
+  margin: 0 20%;
+  height: 40em;
+}
+
+#Resume embed {
+  background-color: white;
+
+}
+
+h1 {
+  color: #FFA500;
+}
+
+#Projects {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0 35%;
+  position: relative;
+  margin-top: 5%;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: repeat(3 33%);
+}
+
+dl {
+  grid-column: 2 / span 1;
+  text-align: left;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    font-size: 0.5em;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  #Projects {
+    margin-top: 4em;
+  }
+}
