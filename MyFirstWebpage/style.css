@@ -1,0 +1,49 @@
+html {
+
+}
+
+head {
+
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial, sans-serif;
+  background-color: rgba( 10, 65, 100, 0.4);
+  //background-image: url('https://images.pexels.com/photos/89485/pexels-photo-89485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+h1  {
+  color: red;
+}
+
+h2 {
+  color: blue;
+  border: 1px solid blue;
+  padding: 30px;
+  margin: 20px 20px;
+}
+
+.Intro p {
+  color: black;
+}
+
+p {
+  color: blue;
+}
+
+img{
+  width: 60%;
+}
+
+ul {
+  color: blue;
+}
+
+a {
+  color: blue;
+}
+
+.free_activities {
+
+}
