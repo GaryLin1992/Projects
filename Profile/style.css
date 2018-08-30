@@ -1,16 +1,32 @@
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v8/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 header {
   margin: 0px;
   padding: 0px;
 }
 
+.tableOfContents a {
+  text-decoration: none;
+  color: white;
+}
+
 .tableOfContents {
+  background-color: rgba(100, 100, 100, 0.9);
   font-size: 1.2em;
   width: 100%;
   z-index: 20;
 }
 
 body {
-  background-color: rgba( 20, 20, 255, 0.2);
+  //background-color: rgba( 20, 20, 255, 0.2);
+  background-image: url('country-quilt.png');
+  font-family: "Abel", sans-serif;
   text-align:center;
 }
 
@@ -21,7 +37,7 @@ ul {
 }
 
 li {
-  display: inline-block;;
+  display: inline-block;
   margin: 20px auto;
   padding: inherit;
 }
@@ -40,14 +56,26 @@ img {
   width: 15%;
 }
 
+h2 img {
+  width: 10%;
+}
+
 .info {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(10, 10, 180, 0.2);
   position: relative;
   margin: 0 30%;
   text-align: center;
   border: 1px solid black;
   line-height: 50%;
 }
+
+.info a {
+  color: black;
+}
+
+/*#mail {
+  height: 2.05em;
+}*/
 
 #AboutMe {
   background-color: rgba(255, 255, 255, 0.4);
@@ -64,9 +92,14 @@ div iframe {
   height: 40em;
 }
 
-#Resume embed {
+/*#Resume embed {
   background-color: white;
 
+}*/
+
+#Resume img {
+  width: 65%;
+  border: 1px solid black;
 }
 
 h1 {
@@ -95,10 +128,25 @@ dl {
     font-size: 0.5em;
   }
 
+/*  #Resume img {
+    width: 30em;
+  }
+*/
+/*  #mail {
+    height: 2.3em;
+  }*/
 }
 
 @media only screen and (max-width: 1200px) {
   #Projects {
     margin-top: 4em;
   }
+
+  #Resume img {
+    width: 30em;
+  }
+
+/*  #mail {
+    height: 200%;
+  }*/
 }
